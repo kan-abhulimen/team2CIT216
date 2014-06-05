@@ -13,23 +13,15 @@
 <body>
   <div id="main">
     <div id="header">
-	  <div id="banner">
 	    <div id="welcome">
 	      <h1>FlazhCards</h1>
 	    </div><!--End of welcome section-->
-	    <div id="menubar">
-        
-        </div><!--End of menubar section-->	  
-	  </div><!--End of close banner section-->	
     </div><!--close header-->	
-	
-	<div id="site_content">	
 	
       <div id="content">
         <div class="content_item">
           <h2>JavaScript Quiz</h2>
-           
-	    </div><!--close content_item-->
+	      </div><!--close content_item-->
   
   <div id="question_one">          
   <p class="question">1. What is the answer to question one?</p>        
@@ -42,7 +34,7 @@
 </ul>  
   </div>      
 
-  <button onclick="nextQuestion('.question_one','.question_two')">Next Question</button>
+  <button onclick="nextQuestion('#question_one','#question_two')">Next Question</button>
 
   <div id="question_two">
 <p class="question">2. What is the answer to question two?</p>        
@@ -55,7 +47,7 @@
 </ul>
   </div>       
 
-<p class="question">3. WHAT WHTA What is the answer to this question?</p>        
+<p class="question">3. What is the answer to this question?</p>        
 
 <ul class="answers">            
 <input type="radio" name="q3" value="a" id="q3a"><label for="q3a">Answer 1</label><br/>            
@@ -187,28 +179,6 @@ Show me the answers!
 You answered them all right!</p>        
 </div>
       </div><!--close content-->   
-	
-	</div><!--close site_content--> 
-
-	
-<<<<<<< HEAD
-=======
-      <div class="content_grey_container_boxl">
-		<h4>Site Information</h4>
-                
-	        <ul id="menu">
-            
-            <li><a href="about.html">About me</a></li>
-            <li><a href="siteplan.html">Site Plan</a></li>
-          </ul><!--close readmore-->	  
-	  </div><!--close content_grey_container_box1-->      
-	  <br style="clear:both"/>
-    </div><<!--close content_grey-->  
-
-    <div id="example div">
-      This is my example div
-    </div>  
->>>>>>> origin/master
  
   </div><!--close main-->
   
